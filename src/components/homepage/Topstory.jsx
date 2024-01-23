@@ -25,8 +25,8 @@ const Topstory = ({ data }) => {
       </div>
       <div className=' max-w-[850px]  p-2 text-center'>
         <h1 className=' text-2xl sm:text-3xl lg:text-4xl font-bold capitalize mt-2 mb-4 hover:text-red-600'>{single?.title?.rendered}</h1>
-        {/* <p className='text-base my-2'>{single.excerpt.rendered}</p> */}
-        <div dangerouslySetInnerHTML={{ __html: single.excerpt.rendered }} />
+        <p className='text-base my-2'>{single.excerpt.rendered}</p>
+        {/* <div dangerouslySetInnerHTML={{ __html: single.excerpt.rendered }} /> */}
 
         <h2 className='text-base font-bold text-gray-800 my-1'>{`BY ${single?._embedded.author[0].name}`}</h2>
       </div>

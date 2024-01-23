@@ -19,8 +19,6 @@ export const metadata = {
 
 export const AdminUrl = 'https://stg.lazzyreaders.com'
 
-export const config = { amp: true }
-
 
 export default function RootLayout({ children }) {
   return (
@@ -49,7 +47,7 @@ export default function RootLayout({ children }) {
         </div>
         <Footer />
         <script async src="https://cdn.ampproject.org/v0.js"></script>
-        <amp-script layout="container" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></amp-script>
+        {/* <amp-script layout="container" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></amp-script> */}
 
 
       </body>
